@@ -21,6 +21,7 @@ import { Label } from "@/components/ui/label";
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
 import { Separator } from "@/components/ui/separator";
 import { Textarea } from "@/components/ui/textarea";
+import { ownerWhatsappMissingMessage, ownerWhatsappNumber } from "@/sanity/lib/config";
 
 type DeliveryMethod = "pickup" | "local";
 type PaymentMethod = "cod" | "paystack";
@@ -68,8 +69,6 @@ export default function CheckoutPage() {
     return true;
   }, [cartHasItems, emailValid, shippingFieldsValid, step]);
 
-  const ownerWhatsappNumber = process.env.NEXT_PUBLIC_OWNER_WHATSAPP_NUMBER || "";
-
   const buildWhatsappMessage = () => {
     const itemsLine = items
       .map((item) => `${item.product.name} x${item.quantity}`)
@@ -91,7 +90,7 @@ export default function CheckoutPage() {
 
   const handleCodCheckout = () => {
     if (!ownerWhatsappNumber) {
-      alert("NEXT_PUBLIC_OWNER_WHATSAPP_NUMBER manquant dans .env");
+      alert(ownerWhatsappMissingMessage);
       return;
     }
     const message = encodeURIComponent(buildWhatsappMessage());
