@@ -18,7 +18,7 @@ const contactInfo = [
   {
     icon: Phone,
     title: "Téléphone",
-    content: "+221 77 123 45 67",
+    content: "+221 77 875 63 16",
     description: "Lun–Sam : 9h–19h",
   },
   {
