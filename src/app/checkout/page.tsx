@@ -552,7 +552,7 @@ export default function CheckoutPage() {
             </div>
 
             <div className="rounded-2xl border border-gray-200 bg-white p-6 shadow-sm">
-              <h3 className="text-base font-semibold text-gray-900">Besoin d'aide ?</h3>
+              <h3 className="text-base font-semibold text-gray-900">Besoin d&apos;aide ?</h3>
               <p className="mt-2 text-sm text-gray-500">
                 Notre équipe est disponible pour vous guider à chaque étape.
               </p>

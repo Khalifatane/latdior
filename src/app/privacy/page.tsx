@@ -271,7 +271,7 @@ export default function Page() {
               Nous pouvons mettre à jour cette politique de confidentialité de
               temps à autre. Nous vous informerons des changements en publiant
               la nouvelle version sur cette page et en mettant à jour la date
-              de "Dernière mise à jour". Nous vous conseillons de la consulter
+              de &quot;Dernière mise à jour&quot;. Nous vous conseillons de la consulter
               régulièrement.
             </p>
           </motion.div>

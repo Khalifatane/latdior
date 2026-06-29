@@ -256,7 +256,7 @@ export default function Page() {
               Nous nous réservons le droit de modifier ces conditions à tout
               moment. Nous vous informerons des changements importants en
               publiant les nouvelles conditions sur cette page et en mettant à
-              jour la date de "Dernière mise à jour". Votre utilisation
+              jour la date de &quot;Dernière mise à jour&quot;. Votre utilisation
               continue du site après les changements vaut acceptation des
               nouvelles conditions.
             </p>

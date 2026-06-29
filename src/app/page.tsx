@@ -123,11 +123,11 @@ export default async function Page() {
                 Offre a duree limitee
               </span>
               <h2 className="text-3xl lg:text-5xl font-bold text-white mt-4 mb-6">
-                Soldes d'ete
-                <span className="block text-amber-400">Jusqu'a -40 %</span>
+                Soldes d&apos;ete
+                <span className="block text-amber-400">Jusqu&apos;a -40 %</span>
               </h2>
               <p className="text-gray-400 text-lg mb-8 max-w-md">
-                Profitez d'offres incroyables sur notre collection premium. Ne
+                Profitez d&apos;offres incroyables sur notre collection premium. Ne
                 manquez pas ces economies exclusives.
               </p>
               <Button

@@ -37,7 +37,7 @@ export function CartDrawer() {
               Votre panier est vide
             </h3>
             <p className="text-gray-500 text-sm mb-6 max-w-xs">
-              Il semble que vous n'ayez encore rien ajouté à votre panier. Découvrez nos produits et trouvez votre coup de cœur !
+              Il semble que vous n&apos;ayez encore rien ajouté à votre panier. Découvrez nos produits et trouvez votre coup de cœur !
             </p>
             <Button
               onClick={() => setIsCartOpen(false)}
